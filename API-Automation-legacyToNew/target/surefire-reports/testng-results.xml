@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="39" ignored="0" total="40" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OpIntelFeedReports" duration-ms="2217099" started-at="2019-06-01T16:31:36Z" finished-at="2019-06-01T17:08:33Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="SSRReports" duration-ms="2217099" started-at="2019-06-01T16:31:36Z" finished-at="2019-06-01T17:08:33Z">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@7dc7cbad]" name="setUpClass" is-config="true" duration-ms="324420" started-at="2019-06-01T16:31:36Z" finished-at="2019-06-01T16:37:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="59622" started-at="2019-06-01T16:37:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:38:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-16968:Verify CREATE NANO configuration schedule"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="53558" started-at="2019-06-01T16:38:00Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:38:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-1696801:Verify CREATE PMX configuration schedule"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="55829" started-at="2019-06-01T16:38:54Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:39:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-1696802:Verify CREATE EXAD configuration schedule"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="53572" started-at="2019-06-01T16:39:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:40:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-20095:Verify EDIT NANO configuration schedule"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="52263" started-at="2019-06-01T16:40:43Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:41:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-20096:Verify DELETE NANO configuration schedule"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="53284" started-at="2019-06-01T16:41:35Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:42:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-16969:Verify OVERLAP NANO configuration schedule"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="52358" started-at="2019-06-01T16:42:29Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:43:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-17284:Verify CREATE/DELETE NANO Meter Reboot schedule"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="53324" started-at="2019-06-01T16:43:21Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:44:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-20092:Verify EDIT Meter Reboot schedule"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="53840" started-at="2019-06-01T16:44:14Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:45:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-17265:Verify OVERLAP Meter Reboot schedule"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="63876" started-at="2019-06-01T16:45:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:46:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-17293:Verify CREATE/DELETE NANO software update"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="54428" started-at="2019-06-01T16:46:12Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:47:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-1729301:Verify CREATE/DELETE PMX software update"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="55097" started-at="2019-06-01T16:47:07Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:48:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-1729302:Verify CREATE/DELETE EXAD  software update"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="55081" started-at="2019-06-01T16:48:02Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:48:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-1729303:Verify CREATE/DELETE NANO/EXAD software update"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="45061" started-at="2019-06-01T16:48:57Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:49:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-17297:Verify OVERRIDING existing NANO software package"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="45108" started-at="2019-06-01T16:49:42Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:50:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-17290:Verify CREATE/DELETE NANO software update"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="45067" started-at="2019-06-01T16:50:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:51:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-20094:Verify  EDIT NANO software update"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="45085" started-at="2019-06-01T16:51:12Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:51:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-17292:Verify OVERLAP NANO software update"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="45096" started-at="2019-06-01T16:51:57Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-16940:Verify Display PENDING only Configuration"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="45115" started-at="2019-06-01T16:52:42Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:53:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-16944:Verify Display PENDING only MeterReboot"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="45051" started-at="2019-06-01T16:53:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:54:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-16938:Verify Display PENDING only SoftwareUpgrade"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="45070" started-at="2019-06-01T16:54:12Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:54:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-16311:Verify Default configuration for NANO"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="45073" started-at="2019-06-01T16:54:57Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:55:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-16311001:Verify Default configuration for PMX"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="45087" started-at="2019-06-01T16:55:42Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:56:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-16311002:Verify Default configuration for EXAD"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="45108" started-at="2019-06-01T16:56:28Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:57:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-17078: Verify Global Registry for NANO"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="45079" started-at="2019-06-01T16:57:13Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:57:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-9999:Verify RemoveMeter for NANO"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="45045" started-at="2019-06-01T16:57:58Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:58:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-1694601:Verify OVERLAP RMS initiate"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="45050" started-at="2019-06-01T16:58:43Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T16:59:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-17067:Verify CREATE/DELETE NANO RMS initiate"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="45095" started-at="2019-06-01T16:59:28Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T17:00:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-1706701:Verify CREATE/DELETE EXAD RMS initiate"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="45063" started-at="2019-06-01T17:00:13Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T17:00:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-1706702:Verify CREATE/DELETE PMX RMSInitiate  is not ALLOWED"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="45043" started-at="2019-06-01T17:00:58Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T17:01:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-1707202:Verify CREATE/DELETE PMX RMSTerminate is not ALLOWED"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="45345" started-at="2019-06-01T17:01:43Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T17:02:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-17072:Verify CREATE/DELETE NANO RMS terminate"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="45070" started-at="2019-06-01T17:02:28Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T17:03:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-1707201:Verify CREATE/DELETE EXAD RMS terminate"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="45336" started-at="2019-06-01T17:03:13Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T17:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-00009:Verify OVERLAP is allowed in NANO RMS terminate"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="45326" started-at="2019-06-01T17:03:59Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T17:04:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-16946:Verify Display PENDING only RMS Initaite"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="45351" started-at="2019-06-01T17:04:44Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T17:05:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-16947:Verify Display PENDING only RMS Terminate"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="45050" started-at="2019-06-01T17:05:29Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T17:06:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-16267:Verify CREATE/DELETE Meter group"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="46423" started-at="2019-06-01T17:06:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T17:07:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-00002:Verify VIEW Meter group"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="46432" started-at="2019-06-01T17:07:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T17:07:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-00003:Verify EDIT  Meter group"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7dc7cbad]" name="runScenario" duration-ms="45369" started-at="2019-06-01T17:07:47Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-01T17:08:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["MW-17254:Verify IMPORT Meter Group"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Nano"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+at ✽.I logged in to Portal and go to "NANO" tab(resources\Feature\NanoPortal.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="setUpClass_test()[pri:0, instance:runner.TestRunner@7dc7cbad]" name="setUpClass_test" duration-ms="0" started-at="2019-06-01T17:08:33Z" finished-at="2019-06-01T17:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass_test -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@7dc7cbad]" name="tearDownClass" is-config="true" duration-ms="276" started-at="2019-06-01T17:08:33Z" finished-at="2019-06-01T17:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- SSRReports -->
+  </suite> <!-- OpIntelFeedReports -->
+</testng-results>

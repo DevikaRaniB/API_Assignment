@@ -1,0 +1,716 @@
+<html>
+<head>
+<title>TestNG:  SSRReports</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SSRReports</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/39/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jun 01 22:01:36 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>2217 seconds (2217099 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-16968:Verify CREATE NANO configuration schedule", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace609483101", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace609483101'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>59</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-1696801:Verify CREATE PMX configuration schedule", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace890160158", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace890160158'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>53</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-1696802:Verify CREATE EXAD configuration schedule", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1433956626", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1433956626'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>55</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-20095:Verify EDIT NANO configuration schedule", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace635288507", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace635288507'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>53</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-20096:Verify DELETE NANO configuration schedule", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1541046463", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1541046463'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>52</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-16969:Verify OVERLAP NANO configuration schedule", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace61137731", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace61137731'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>53</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-17284:Verify CREATE/DELETE NANO Meter Reboot schedule", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1997357673", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1997357673'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>52</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-20092:Verify EDIT Meter Reboot schedule", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1509713998", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1509713998'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>53</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-17265:Verify OVERLAP Meter Reboot schedule", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2047984839", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2047984839'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>53</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-17293:Verify CREATE/DELETE NANO software update", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1988746735", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1988746735'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>63</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-1729301:Verify CREATE/DELETE PMX software update", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1835778392", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1835778392'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>54</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-1729302:Verify CREATE/DELETE EXAD  software update", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1365575811", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1365575811'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>55</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-1729303:Verify CREATE/DELETE NANO/EXAD software update", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1235635586", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1235635586'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>55</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-17297:Verify OVERRIDING existing NANO software package", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1205419533", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1205419533'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>45</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-17290:Verify CREATE/DELETE NANO software update", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1420012431", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1420012431'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>45</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-20094:Verify  EDIT NANO software update", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1791267914", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1791267914'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>45</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-17292:Verify OVERLAP NANO software update", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace291651850", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace291651850'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>45</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-16940:Verify Display PENDING only Configuration", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace763610533", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace763610533'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>45</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-16944:Verify Display PENDING only MeterReboot", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1671811074", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1671811074'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>45</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-16938:Verify Display PENDING only SoftwareUpgrade", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace235162442", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace235162442'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>45</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-16311:Verify Default configuration for NANO", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1360533184", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1360533184'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>45</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-16311001:Verify Default configuration for PMX", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace212232499", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace212232499'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>45</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-16311002:Verify Default configuration for EXAD", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1128158063", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1128158063'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>45</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-17078: Verify Global Registry for NANO", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1511004956", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1511004956'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>45</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-9999:Verify RemoveMeter for NANO", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace633727380", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace633727380'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>45</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-1694601:Verify OVERLAP RMS initiate", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1472036907", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1472036907'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>45</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-17067:Verify CREATE/DELETE NANO RMS initiate", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1186989416", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1186989416'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>45</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-1706701:Verify CREATE/DELETE EXAD RMS initiate", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1658704411", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1658704411'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>45</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-1706702:Verify CREATE/DELETE PMX RMSInitiate  is not ALLOWED", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace205810452", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace205810452'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>45</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-1707202:Verify CREATE/DELETE PMX RMSTerminate is not ALLOWED", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace234857227", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace234857227'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>45</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-17072:Verify CREATE/DELETE NANO RMS terminate", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace893320639", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace893320639'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>45</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-1707201:Verify CREATE/DELETE EXAD RMS terminate", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1643379640", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1643379640'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>45</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-00009:Verify OVERLAP is allowed in NANO RMS terminate", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace822359325", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace822359325'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>45</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-16946:Verify Display PENDING only RMS Initaite", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1711105800", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1711105800'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>45</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-16947:Verify Display PENDING only RMS Terminate", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1957530885", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1957530885'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>45</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-16267:Verify CREATE/DELETE Meter group", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace732118572", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace732118572'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>45</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-00002:Verify VIEW Meter group", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1759313234", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1759313234'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>46</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-00003:Verify EDIT  Meter group", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace447320069", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace447320069'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>46</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "MW-17254:Verify IMPORT Meter Group", "Nano"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace28010264", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace28010264'><pre>java.lang.NullPointerException
+	at com.nielsen.cucumbertestngframework.TestExecutor.goToNanoTab(TestExecutor.java:437)
+	at com.nielsen.cucumbertestngframework.TestExecutor.loginToPortal(TestExecutor.java:343)
+	at stepdefs.BaseStepDefs.iLoggedInToPortalAndGoToTab(BaseStepDefs.java:54)
+	at ?.I logged in to Portal and go to &quot;NANO&quot; tab(resources\Feature\NanoPortal.feature:7)
+</pre></div></td>
+<td>45</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.TestRunner.setUpClass_test()'><b>setUpClass_test</b><br>Test class: runner.TestRunner</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@7dc7cbad</td></tr>
+</table><p>
+</body>
+</html>

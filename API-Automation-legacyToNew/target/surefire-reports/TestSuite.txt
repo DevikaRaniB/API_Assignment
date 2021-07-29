@@ -1,0 +1,121 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 40, Failures: 39, Errors: 0, Skipped: 0, Time elapsed: 2,218.701 s <<< FAILURE! - in TestSuite
+runScenario(runner.TestRunner)  Time elapsed: 59.639 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 53.551 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 55.83 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 53.572 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 52.264 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 53.285 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 52.358 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 53.327 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 53.84 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 63.877 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 54.439 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 55.088 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 55.081 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 45.06 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 45.109 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 45.067 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 45.085 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 45.097 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 45.116 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 45.051 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 45.07 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 45.074 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 45.089 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 45.107 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 45.078 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 45.045 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 45.05 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 45.094 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 45.064 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 45.044 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 45.345 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 45.07 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 45.335 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 45.327 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 45.352 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 45.051 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 46.423 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 46.433 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 45.369 s  <<< FAILURE!
+java.lang.NullPointerException
+
